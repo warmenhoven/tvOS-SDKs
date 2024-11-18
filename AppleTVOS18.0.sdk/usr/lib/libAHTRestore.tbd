@@ -1,0 +1,10 @@
+--- !tapi-tbd
+tbd-version:     4
+targets:         [ arm64-tvos, arm64e-tvos ]
+install-name:    '/usr/lib/libAHTRestore.dylib'
+current-version: 8200.33
+exports:
+  - targets:         [ arm64-tvos, arm64e-tvos ]
+    symbols:         [ _AHTRestoreCreateDeviceList, _AHTRestoreFailureCleanup, _AHTRestoreUpdateDevice, 
+                       _AHTRestoreUpdateDeviceWithOverrides ]
+...

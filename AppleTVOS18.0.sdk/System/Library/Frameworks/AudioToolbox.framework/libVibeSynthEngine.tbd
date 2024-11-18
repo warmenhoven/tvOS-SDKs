@@ -1,0 +1,10 @@
+--- !tapi-tbd
+tbd-version:     4
+targets:         [ arm64-tvos, arm64e-tvos ]
+install-name:    '/System/Library/Frameworks/AudioToolbox.framework/libVibeSynthEngine.dylib'
+exports:
+  - targets:         [ arm64-tvos, arm64e-tvos ]
+    symbols:         [ _GetAudioDSPManager, _VibeSynthEngineCancelWithOptions, _VibeSynthEngineHasHardwareSupport, 
+                       _VibeSynthEngineInitialize, _VibeSynthEnginePlay, _VibeSynthEngineStartPrewarm, 
+                       _VibeSynthEngineStopPrewarm, __ZN24HapticSharedMemoryReader8allocateERN10applesauce3xpc6objectERj ]
+...

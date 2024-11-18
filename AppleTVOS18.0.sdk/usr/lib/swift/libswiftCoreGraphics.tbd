@@ -1,0 +1,9 @@
+--- !tapi-tbd
+tbd-version:     4
+targets:         [ arm64-tvos, arm64e-tvos ]
+install-name:    '/usr/lib/swift/libswiftCoreGraphics.dylib'
+current-version: 17
+reexported-libraries:
+  - targets:         [ arm64-tvos, arm64e-tvos ]
+    libraries:       [ '/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics' ]
+...

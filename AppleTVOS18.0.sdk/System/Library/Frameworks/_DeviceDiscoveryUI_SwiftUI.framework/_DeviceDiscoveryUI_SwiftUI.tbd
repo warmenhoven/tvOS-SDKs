@@ -1,0 +1,20 @@
+--- !tapi-tbd
+tbd-version:     4
+targets:         [ arm64-tvos, arm64e-tvos ]
+install-name:    '/System/Library/Frameworks/_DeviceDiscoveryUI_SwiftUI.framework/_DeviceDiscoveryUI_SwiftUI'
+swift-abi-version: 7
+exports:
+  - targets:         [ arm64-tvos, arm64e-tvos ]
+    symbols:         [ '_$s024_DeviceDiscoveryUI_SwiftC00A21PickerSupportedActionV14callAsFunction_10parametersSb7Network9NWBrowserC10DescriptorO_AF12NWParametersCycSgtF', 
+                       '_$s024_DeviceDiscoveryUI_SwiftC00A21PickerSupportedActionVMa', 
+                       '_$s024_DeviceDiscoveryUI_SwiftC00A21PickerSupportedActionVMn', 
+                       '_$s024_DeviceDiscoveryUI_SwiftC00A21PickerSupportedActionVN', 
+                       '_$s024_DeviceDiscoveryUI_SwiftC00A6PickerV4bodyQrvg', '_$s024_DeviceDiscoveryUI_SwiftC00A6PickerV4bodyQrvpMV', 
+                       '_$s024_DeviceDiscoveryUI_SwiftC00A6PickerV4bodyQrvpQOMQ', 
+                       '_$s024_DeviceDiscoveryUI_SwiftC00A6PickerVMa', '_$s024_DeviceDiscoveryUI_SwiftC00A6PickerVMn', 
+                       '_$s024_DeviceDiscoveryUI_SwiftC00A6PickerV_8onSelect5label8fallback10parametersACyxq_G7Network9NWBrowserC10DescriptorO_yAI10NWEndpointOcxyXEq_yXEAI12NWParametersCycSgtcfC', 
+                       '_$s024_DeviceDiscoveryUI_SwiftC00A6PickerVyxq_G0dC04ViewAAMc', 
+                       '_$s7SwiftUI17EnvironmentValuesV016_DeviceDiscoveryb1_aB0E20devicePickerSupportsAD0eH15SupportedActionVvg', 
+                       '_$s7SwiftUI17EnvironmentValuesV016_DeviceDiscoveryb1_aB0E20devicePickerSupportsAD0eH15SupportedActionVvpMV', 
+                       __DeviceDiscoveryUI_SwiftUIVersionNumber, __DeviceDiscoveryUI_SwiftUIVersionString ]
+...

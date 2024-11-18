@@ -1,0 +1,50 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 6.0 effective-5.10 (swiftlang-6.0.0.7.24 clang-1600.0.25.1)
+// swift-module-flags: -target arm64e-apple-tvos18.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -library-level api -enable-bare-slash-regex -user-module-version 1967.10.4.3.1 -module-name _DeviceDiscoveryUI_SwiftUI
+@_exported import DeviceDiscoveryUI
+import Foundation
+import Swift
+import SwiftUI
+import _Concurrency
+import _StringProcessing
+import _SwiftConcurrencyShims
+@available(tvOS 16.0, *)
+@available(iOS, unavailable)
+@available(macOS, unavailable)
+@available(watchOS, unavailable)
+@_Concurrency.MainActor @preconcurrency public struct DevicePicker<Label, Fallback> : SwiftUICore.View where Label : SwiftUICore.View, Fallback : SwiftUICore.View {
+  @_Concurrency.MainActor @preconcurrency public init(_ browseDescriptor: Network.NWBrowser.Descriptor, onSelect: @escaping (Network.NWEndpoint) -> Swift.Void, @SwiftUICore.ViewBuilder label: () -> Label, @SwiftUICore.ViewBuilder fallback: () -> Fallback, parameters: (() -> Network.NWParameters)? = nil)
+  @_Concurrency.MainActor @preconcurrency public var body: some SwiftUICore.View {
+    get
+  }
+  @available(tvOS 16.0, *)
+  @available(iOS, unavailable, introduced: 13.0)
+  @available(watchOS, unavailable, introduced: 6.0)
+  @available(macOS, unavailable, introduced: 10.15)
+  public typealias Body = @_opaqueReturnTypeOf("$s024_DeviceDiscoveryUI_SwiftC00A6PickerV4bodyQrvp", 0) __<Label, Fallback>
+}
+@available(tvOS 16.0, *)
+@available(iOS, unavailable)
+@available(macOS, unavailable)
+@available(watchOS, unavailable)
+public struct DevicePickerSupportedAction {
+  public func callAsFunction(_ browseDescriptor: Network.NWBrowser.Descriptor, parameters: (() -> Network.NWParameters)? = nil) -> Swift.Bool
+}
+extension SwiftUICore.EnvironmentValues {
+  @available(tvOS 16.0, *)
+  @available(iOS, unavailable)
+  @available(macOS, unavailable)
+  @available(watchOS, unavailable)
+  public var devicePickerSupports: _DeviceDiscoveryUI_SwiftUI.DevicePickerSupportedAction {
+    get
+  }
+}
+extension Network.NWEndpoint : @unchecked Swift.Sendable {
+}
+extension DeviceDiscoveryUI.DDDevicePickerViewController : Swift.Sendable {
+}
+@available(tvOS 16.0, *)
+@available(iOS, unavailable)
+@available(macOS, unavailable)
+@available(watchOS, unavailable)
+extension _DeviceDiscoveryUI_SwiftUI.DevicePicker : Swift.Sendable {}

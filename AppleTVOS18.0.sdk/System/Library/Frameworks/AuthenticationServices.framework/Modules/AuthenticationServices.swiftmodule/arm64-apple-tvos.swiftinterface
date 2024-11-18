@@ -1,0 +1,243 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 6.0 effective-5.10 (swiftlang-6.0.0.7.24 clang-1600.0.25.1)
+// swift-module-flags: -target arm64-apple-tvos18.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -library-level api -enable-bare-slash-regex -user-module-version 7619.1.26.13.3 -module-name AuthenticationServices
+@_exported import AuthenticationServices
+import CryptoKit
+import DeveloperToolsSupport
+import Foundation
+import Swift
+import _Concurrency
+import _StringProcessing
+import _SwiftConcurrencyShims
+import os
+@available(iOS 16.4, macOS 13.3, tvOS 16.4, watchOS 9.4, *)
+extension AuthenticationServices.ASAuthorization : @unchecked Swift.Sendable {
+}
+@available(iOS 16.4, macOS 13.3, tvOS 16.4, watchOS 9.4, *)
+extension AuthenticationServices.ASAuthorizationAppleIDCredential : @unchecked Swift.Sendable {
+}
+@available(iOS 16.4, macOS 13.3, tvOS 16.4, watchOS 9.4, *)
+extension AuthenticationServices.ASAuthorizationAppleIDProvider : @unchecked Swift.Sendable {
+}
+@available(iOS 16.4, macOS 13.3, tvOS 16.4, watchOS 9.4, *)
+extension AuthenticationServices.ASAuthorizationAppleIDRequest : @unchecked Swift.Sendable {
+}
+@available(iOS 16.4, macOS 13.3, tvOS 16.4, watchOS 9.4, *)
+extension AuthenticationServices.ASAuthorizationOpenIDRequest : @unchecked Swift.Sendable {
+}
+@available(iOS 16.4, macOS 13.3, tvOS 16.4, watchOS 9.4, *)
+extension AuthenticationServices.ASAuthorizationPasswordProvider : @unchecked Swift.Sendable {
+}
+@available(iOS 16.4, macOS 13.3, tvOS 16.4, watchOS 9.4, *)
+extension AuthenticationServices.ASAuthorizationPasswordRequest : @unchecked Swift.Sendable {
+}
+@available(iOS 16.4, macOS 13.3, *)
+@available(tvOS, unavailable)
+@available(watchOS, unavailable)
+extension AuthenticationServices.ASAuthorizationSingleSignOnCredential : @unchecked Swift.Sendable {
+}
+@available(iOS 16.4, macOS 13.3, *)
+@available(tvOS, unavailable)
+@available(watchOS, unavailable)
+extension AuthenticationServices.ASAuthorizationSingleSignOnProvider : @unchecked Swift.Sendable {
+}
+@available(iOS 16.4, macOS 13.3, *)
+@available(tvOS, unavailable)
+@available(watchOS, unavailable)
+extension AuthenticationServices.ASAuthorizationSingleSignOnRequest : @unchecked Swift.Sendable {
+}
+@available(iOS 16.4, macOS 13.3, tvOS 16.4, watchOS 9.4, *)
+extension AuthenticationServices.ASPasswordCredential : @unchecked Swift.Sendable {
+}
+@available(iOS 16.4, macOS 13.3, *)
+@available(tvOS, unavailable)
+@available(watchOS, unavailable)
+extension AuthenticationServices.ASAuthorizationPlatformPublicKeyCredentialAssertion : @unchecked Swift.Sendable {
+}
+@available(iOS 16.4, macOS 13.3, *)
+@available(tvOS, unavailable)
+@available(watchOS, unavailable)
+extension AuthenticationServices.ASAuthorizationPlatformPublicKeyCredentialAssertionRequest : @unchecked Swift.Sendable {
+}
+@available(iOS 16.4, macOS 13.3, *)
+@available(tvOS, unavailable)
+@available(watchOS, unavailable)
+extension AuthenticationServices.ASAuthorizationPlatformPublicKeyCredentialDescriptor : @unchecked Swift.Sendable {
+}
+@available(iOS 16.4, macOS 13.3, *)
+@available(tvOS, unavailable)
+@available(watchOS, unavailable)
+extension AuthenticationServices.ASAuthorizationPlatformPublicKeyCredentialProvider : @unchecked Swift.Sendable {
+}
+@available(iOS 16.4, macOS 13.3, *)
+@available(tvOS, unavailable)
+@available(watchOS, unavailable)
+extension AuthenticationServices.ASAuthorizationPlatformPublicKeyCredentialRegistration : @unchecked Swift.Sendable {
+}
+@available(iOS 16.4, macOS 13.3, *)
+@available(tvOS, unavailable)
+@available(watchOS, unavailable)
+extension AuthenticationServices.ASAuthorizationPlatformPublicKeyCredentialRegistrationRequest : @unchecked Swift.Sendable {
+}
+@available(iOS 16.4, macOS 13.3, *)
+@available(tvOS, unavailable)
+@available(watchOS, unavailable)
+extension AuthenticationServices.ASAuthorizationPublicKeyCredentialParameters : @unchecked Swift.Sendable {
+}
+@available(iOS 16.4, macOS 13.3, *)
+@available(tvOS, unavailable)
+@available(watchOS, unavailable)
+extension AuthenticationServices.ASAuthorizationSecurityKeyPublicKeyCredentialAssertion : @unchecked Swift.Sendable {
+}
+@available(iOS 16.4, macOS 13.3, *)
+@available(tvOS, unavailable)
+@available(watchOS, unavailable)
+extension AuthenticationServices.ASAuthorizationSecurityKeyPublicKeyCredentialAssertionRequest : @unchecked Swift.Sendable {
+}
+@available(iOS 16.4, macOS 13.3, *)
+@available(tvOS, unavailable)
+@available(watchOS, unavailable)
+extension AuthenticationServices.ASAuthorizationSecurityKeyPublicKeyCredentialDescriptor : @unchecked Swift.Sendable {
+}
+@available(iOS 16.4, macOS 13.3, *)
+@available(tvOS, unavailable)
+@available(watchOS, unavailable)
+extension AuthenticationServices.ASAuthorizationSecurityKeyPublicKeyCredentialProvider : @unchecked Swift.Sendable {
+}
+@available(iOS 16.4, macOS 13.3, *)
+@available(tvOS, unavailable)
+@available(watchOS, unavailable)
+extension AuthenticationServices.ASAuthorizationSecurityKeyPublicKeyCredentialRegistration : @unchecked Swift.Sendable {
+}
+@available(iOS 16.4, macOS 13.3, *)
+@available(tvOS, unavailable)
+@available(watchOS, unavailable)
+extension AuthenticationServices.ASAuthorizationSecurityKeyPublicKeyCredentialRegistrationRequest : @unchecked Swift.Sendable {
+}
+@available(iOS 16.4, macOS 13.3, tvOS 16.4, watchOS 9.4, *)
+extension AuthenticationServices.ASAuthorizationRequest : @unchecked Swift.Sendable {
+}
+@available(macOS 13.3, macCatalyst 16.4, iOS 17.4, *)
+@available(tvOS, unavailable)
+@available(watchOS, unavailable)
+@available(visionOS, unavailable)
+public struct ASAuthorizationWebBrowserPlatformPublicKeyCredential : Swift.Sendable {
+  public let name: Swift.String
+  @available(macOS 14.0, macCatalyst 17.0, *)
+  public let customTitle: Swift.String
+  public let relyingParty: Swift.String
+  public let credentialID: Foundation.Data
+  public let userHandle: Foundation.Data
+}
+@available(macOS 13.3, macCatalyst 16.4, iOS 17.4, *)
+@available(tvOS, unavailable)
+@available(watchOS, unavailable)
+@available(visionOS, unavailable)
+extension AuthenticationServices.ASAuthorizationWebBrowserPublicKeyCredentialManager {
+  public func platformCredentials(forRelyingParty relyingParty: Swift.String) async -> [AuthenticationServices.ASAuthorizationWebBrowserPlatformPublicKeyCredential]
+}
+@available(macOS 13.5, macCatalyst 16.6, *)
+@available(iOS, unavailable)
+@available(tvOS, unavailable)
+@available(watchOS, unavailable)
+extension AuthenticationServices.ASAuthorizationWebBrowserPlatformPublicKeyCredentialRegistrationRequest {
+  public var clientData: AuthenticationServices.ASPublicKeyCredentialClientData? {
+    get
+  }
+}
+@available(macOS 13.5, macCatalyst 16.6, *)
+@available(iOS, unavailable)
+@available(tvOS, unavailable)
+@available(watchOS, unavailable)
+extension AuthenticationServices.ASAuthorizationWebBrowserPlatformPublicKeyCredentialAssertionRequest {
+  public var clientData: AuthenticationServices.ASPublicKeyCredentialClientData? {
+    get
+  }
+}
+@available(macOS 13.5, macCatalyst 16.6, iOS 17.4, *)
+@available(tvOS, unavailable)
+@available(watchOS, unavailable)
+@available(visionOS, unavailable)
+public protocol ASAuthorizationWebBrowserPlatformPublicKeyCredentialProvider {
+  func createCredentialRegistrationRequest(clientData: AuthenticationServices.ASPublicKeyCredentialClientData, name: Swift.String, userID: Foundation.Data) -> AuthenticationServices.ASAuthorizationPlatformPublicKeyCredentialRegistrationRequest
+  @available(macOS 15.0, iOS 18.0, *)
+  func createCredentialRegistrationRequest(clientData: AuthenticationServices.ASPublicKeyCredentialClientData, name: Swift.String, userID: Foundation.Data, requestStyle: AuthenticationServices.ASAuthorizationPlatformPublicKeyCredentialRegistrationRequest.RequestStyle) -> AuthenticationServices.ASAuthorizationPlatformPublicKeyCredentialRegistrationRequest
+  func createCredentialAssertionRequest(clientData: AuthenticationServices.ASPublicKeyCredentialClientData) -> AuthenticationServices.ASAuthorizationPlatformPublicKeyCredentialAssertionRequest
+}
+@available(macOS 13.5, macCatalyst 16.6, iOS 17.4, *)
+@available(tvOS, unavailable)
+@available(watchOS, unavailable)
+@available(visionOS, unavailable)
+extension AuthenticationServices.ASAuthorizationPlatformPublicKeyCredentialProvider : AuthenticationServices.ASAuthorizationWebBrowserPlatformPublicKeyCredentialProvider {
+  public func createCredentialRegistrationRequest(clientData: AuthenticationServices.ASPublicKeyCredentialClientData, name: Swift.String, userID: Foundation.Data) -> AuthenticationServices.ASAuthorizationPlatformPublicKeyCredentialRegistrationRequest
+  public func createCredentialAssertionRequest(clientData: AuthenticationServices.ASPublicKeyCredentialClientData) -> AuthenticationServices.ASAuthorizationPlatformPublicKeyCredentialAssertionRequest
+  @available(macOS 15.0, iOS 18.0, *)
+  @available(tvOS, unavailable)
+  @available(watchOS, unavailable)
+  @available(visionOS, unavailable)
+  public func createCredentialRegistrationRequest(clientData: AuthenticationServices.ASPublicKeyCredentialClientData, name: Swift.String, userID: Foundation.Data, requestStyle: AuthenticationServices.ASAuthorizationPlatformPublicKeyCredentialRegistrationRequest.RequestStyle) -> AuthenticationServices.ASAuthorizationPlatformPublicKeyCredentialRegistrationRequest
+}
+@available(macOS 14.4, iOS 17.4, *)
+@available(tvOS, unavailable)
+@available(watchOS, unavailable)
+@available(visionOS, unavailable)
+extension AuthenticationServices.ASAuthorizationWebBrowserSecurityKeyPublicKeyCredentialAssertionRequest {
+  public var clientData: AuthenticationServices.ASPublicKeyCredentialClientData? {
+    get
+  }
+}
+@available(macOS 14.4, iOS 17.4, *)
+@available(tvOS, unavailable)
+@available(watchOS, unavailable)
+@available(visionOS, unavailable)
+extension AuthenticationServices.ASAuthorizationWebBrowserSecurityKeyPublicKeyCredentialRegistrationRequest {
+  public var clientData: AuthenticationServices.ASPublicKeyCredentialClientData? {
+    get
+  }
+}
+@available(macOS 14.4, iOS 17.4, *)
+@available(tvOS, unavailable)
+@available(watchOS, unavailable)
+@available(visionOS, unavailable)
+public protocol ASAuthorizationWebBrowserSecurityKeyPublicKeyCredentialProvider {
+  func createCredentialRegistrationRequest(clientData: AuthenticationServices.ASPublicKeyCredentialClientData, displayName: Swift.String, name: Swift.String, userID: Foundation.Data) -> AuthenticationServices.ASAuthorizationSecurityKeyPublicKeyCredentialRegistrationRequest
+  func createCredentialAssertionRequest(clientData: AuthenticationServices.ASPublicKeyCredentialClientData) -> AuthenticationServices.ASAuthorizationSecurityKeyPublicKeyCredentialAssertionRequest
+}
+@available(macOS 14.4, iOS 17.4, *)
+@available(tvOS, unavailable)
+@available(watchOS, unavailable)
+@available(visionOS, unavailable)
+extension AuthenticationServices.ASAuthorizationSecurityKeyPublicKeyCredentialProvider : AuthenticationServices.ASAuthorizationWebBrowserSecurityKeyPublicKeyCredentialProvider {
+  public func createCredentialRegistrationRequest(clientData: AuthenticationServices.ASPublicKeyCredentialClientData, displayName: Swift.String, name: Swift.String, userID: Foundation.Data) -> AuthenticationServices.ASAuthorizationSecurityKeyPublicKeyCredentialRegistrationRequest
+  public func createCredentialAssertionRequest(clientData: AuthenticationServices.ASPublicKeyCredentialClientData) -> AuthenticationServices.ASAuthorizationSecurityKeyPublicKeyCredentialAssertionRequest
+}
+@available(macOS 13.5, macCatalyst 16.6, iOS 17.4, *)
+@available(tvOS, unavailable)
+@available(watchOS, unavailable)
+@available(visionOS, unavailable)
+public struct ASPublicKeyCredentialClientData : Swift.Sendable {
+  public enum CrossOriginValue : Swift.Sendable {
+    case crossOrigin
+    case sameOriginWithAncestors
+    public static func == (a: AuthenticationServices.ASPublicKeyCredentialClientData.CrossOriginValue, b: AuthenticationServices.ASPublicKeyCredentialClientData.CrossOriginValue) -> Swift.Bool
+    public func hash(into hasher: inout Swift.Hasher)
+    public var hashValue: Swift.Int {
+      get
+    }
+  }
+  public var challenge: Foundation.Data
+  public var origin: Swift.String
+  public var topOrigin: Swift.String?
+  public var crossOrigin: AuthenticationServices.ASPublicKeyCredentialClientData.CrossOriginValue?
+  public init(challenge: Foundation.Data, origin: Swift.String, topOrigin: Swift.String? = nil, crossOrigin: AuthenticationServices.ASPublicKeyCredentialClientData.CrossOriginValue? = nil)
+}
+@available(macOS 13.5, macCatalyst 16.6, iOS 17.4, *)
+@available(tvOS, unavailable)
+@available(watchOS, unavailable)
+@available(visionOS, unavailable)
+extension AuthenticationServices.ASPublicKeyCredentialClientData.CrossOriginValue : Swift.Equatable {}
+@available(macOS 13.5, macCatalyst 16.6, iOS 17.4, *)
+@available(tvOS, unavailable)
+@available(watchOS, unavailable)
+@available(visionOS, unavailable)
+extension AuthenticationServices.ASPublicKeyCredentialClientData.CrossOriginValue : Swift.Hashable {}
